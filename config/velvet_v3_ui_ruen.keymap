@@ -8,6 +8,11 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
+&mt {
+    quick-tap-ms = <125>;
+    flavor = "tap-preferred";
+};
+
 / {
     behaviors {
         cap_sen: cap_sen {
